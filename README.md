@@ -32,7 +32,7 @@ Nesta aba estão definidos os **percentuais de alocação de FIIs** conforme o p
 
 #### 🔑 Colunas principais:
 - **CHAVE**: Identificador único do perfil e tipo de FII  
-- **PERFIL**: Tipo de investidor (ex.: Conservador, Moderado)  
+- **PERFIL**: Tipo de investidor (Conservador, Moderado ou Agressivo)  
 - **TIPO DE FII**: Categoria do fundo imobiliário  
 - **%**: Percentual recomendado de alocação  
 
@@ -50,18 +50,32 @@ Nesta aba estão definidos os **percentuais de alocação de FIIs** conforme o p
 ## 👤 Perfis de Investidor
 
 ### 🔹 Conservador
-Distribuição focada em menor risco e maior previsibilidade:
+Perfil voltado à preservação de capital e maior previsibilidade de rendimentos.
 
 - PAPEL: 30%  
 - TIJOLO: 50%  
 - HÍBRIDOS: 10%  
 - FOFs: 10%  
 
+---
+
 ### 🔸 Moderado
-Perfil com maior exposição ao risco visando crescimento:
+Perfil equilibrado entre segurança e crescimento.
 
 - TIJOLO: 35%  
-- (Demais categorias podem ser ajustadas conforme estratégia)
+- PAPEL: 35%  
+- HÍBRIDOS: 20%  
+- FOFs: 10%  
+
+---
+
+### 🔺 Agressivo
+Perfil com maior tolerância ao risco, focado em crescimento e maior exposição ao mercado imobiliário.
+
+- TIJOLO: 50%  
+- PAPEL: 20%  
+- HÍBRIDOS: 20%  
+- FOFs: 10%  
 
 ---
 
@@ -86,15 +100,14 @@ Perfil com maior exposição ao risco visando crescimento:
 ## 📌 Personalização
 
 A planilha pode ser expandida para incluir:
-- Perfil Agressivo
 - Controle de ativos reais
-- Comparação entre alocação ideal x real
-- Gráficos de distribuição
+- Comparação entre alocação ideal x alocação atual
+- Gráficos automáticos de distribuição
+- Evolução da carteira ao longo do tempo
 
 ---
 
 ## 👤 Autoria
 
 Planilha desenvolvida para estudos de investimentos em FIIs, com base em conteúdos educacionais da DIO e adaptações pessoais.
-
 
